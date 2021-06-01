@@ -3,22 +3,55 @@
 <html>
   <head>
   <style type="text/css">
-    
+    /* header */
+    /* desktop and above*/
+    @media screen  and (min-width:1024px) {
+      .logo-img {
+          width: 80px;
+          height: 80px;
+          border: 3px solid var(--primary-color);
+          border-radius: 50%;
+          position: relative;
+          bottom: 12px;
+      }
+      }
+    /* tablet from 768 to 1024*/
+    @media screen and (min-width: 768px) and (max-width: 1400px) {
+      .logo-img{
+          width: 60px;
+          height:60px;
+          border: 3px solid var(--primary-color);
+          border-radius: 50%;
+          position: relative;
+          bottom: 3px;
+      }
+    }
+     /* smartphone from 767 to below*/
+    @media screen and (max-width: 767px)  {
+      .logo-img{
+          width: 40px;
+          height:40px;
+          border: 3px solid var(--primary-color);
+          border-radius: 50%;
+      } 
+    }
+    /* header */
   </style> 
   
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
- <meta name="description" content="IncH Class centre de formation professionnelle inclusive aux métiers du numérique.">
-  <meta name="description" content="Inch Class est situé à douala et offre des formations gratuites dans les métiers du numérique.">
- <title>Nos formations inclusives aux métiers du numérique <strong>IncH Class</strong>  </title>
- <link rel="shortcut icon" type="image/x-icon" href="assets/images/inchclassLOGO-removebg-preview.png">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="IncH Class centre de formation professionnelle inclusive aux métiers du numérique.">
+<meta name="description" content="Inch Class est situé à douala et offre des formations gratuites dans les métiers du numérique.">
+<title>Nos formations inclusives aux métiers du numérique <strong>IncH Class</strong>  </title>
+<link rel="shortcut icon" type="image/x-icon" href="assets/images/inchclassLOGO-removebg-preview.png">
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
-  <link rel="stylesheet" href="assets/css/formation.css">
-  <!-- Template CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
+<link rel="stylesheet" href="assets/css/formation.css">
+
+<!-- Template CSS -->
   
-  <link rel="stylesheet" href="assets/css/style-starter.css">
+<link rel="stylesheet" href="assets/css/style-starter.css">
 </head>
 
 <body>
@@ -65,9 +98,11 @@
 <section class="w3l-header-4">
   <div class="container">
       <nav class="navbar navbar-expand-lg navbar-light">
-          <h1><a class="navbar-brand" href="index.html">
-              <img src="./assets/images/inchclassPoweredbySimplon.png" class="logo-img" alt="IncH Class logo">
-              </a></h1>
+          <h1>
+              <a class="navbar-brand" href="index.html">
+                <img src="./assets/images/inchclassPoweredbySimplon.png" class="logo-img" alt="IncH Class logo">
+              </a>
+          </h1>
           <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav"
               aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="fa icon-expand fa-bars"></span>
@@ -133,6 +168,7 @@
   </div>
 </section>
 </header>
+
 <section class="w3l-breadcrumb">
 <div class="container">
 <ul class="breadcrumbs-custom-path">
@@ -143,7 +179,7 @@
 </section>
 
 
-  <main>
+<main>
   
   <div class="courses-area section-padding40 fix">
   <div class="container">
@@ -568,7 +604,8 @@
   
   
   
-  </main>
+</main>
+
  <!-- footer -->
 <section class="w3l-footer-29-main">
   <div class="footer-29 py-5">

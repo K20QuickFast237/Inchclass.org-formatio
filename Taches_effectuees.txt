@@ -14,3 +14,5 @@
         formations.html {
             L 189
         }
+4. Suppression de User Experience dans les panels de formation: ----> Kevin T
+5. Afout du find out more dans le dernier panel des formations gratuites: ----> kevin T

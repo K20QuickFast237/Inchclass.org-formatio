@@ -16,3 +16,4 @@
         }
 4. Suppression de User Experience dans les panels de formation: ----> Kevin T
 5. Afout du find out more dans le dernier panel des formations gratuites: ----> kevin T
+6. Uniformisation de savoir plus dans les panels des deux types de formation: ----> kevin T
